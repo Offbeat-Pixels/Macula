@@ -1,0 +1,45 @@
+{
+  "name": "3dfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@react-three/drei": "^9.56.24",
+    "@react-three/fiber": "^8.11.1",
+    "es6-tween": "^5.5.11",
+    "framer-motion": "^9.0.7",
+    "gsap": "^3.12.5",
+    "maath": "^0.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-globe": "^2.0.1",
+    "react-globe.gl": "^2.28.3",
+    "react-parallax-tilt": "^1.7.264",
+    "react-router-dom": "^6.8.1",
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.149.0",
+    "tippy.js": "^6.3.7",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "vite": "^4.1.0"
+  },
+  "description": "<div align=\"center\">\r   <br />\r     <a href=\"https://youtu.be/0fYi8SGA20k?feature=shared\" target=\"_blank\">\r       <img src=\"https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6\" alt=\"Project Banner\">\r     </a>\r   <br />",
+  "main": "vite.config.js",
+  "author": "",
+  "license": "ISC"
+}
